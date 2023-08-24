@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chuck Norris Jokes</title>
+
+    <!-- Link to Animate.css Library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- Link to External Stylesheet -->
+    <link rel="stylesheet" href="chuckNorrisJokes.css" />
+  </head>
+  <body>
+    <!-- Heading -->
+    <h1 class="animate__animated animate__fadeInDown animate__delay-1s">
+      Chuck Norris Jokes
+    </h1>
+
+    <!-- Container to store Category -->
+    <div
+      class="categoryContainer animate__animated animate__fadeInDown animate__delay-2s"
+    >
+      <label for="category">Select a Category</label>
+      <div>
+        <select id="category">
+          <option selected disabled value="false">Select Category</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Button to get Jokes -->
+    <button
+      class="animate__animated animate__fadeInDown animate__delay-3s"
+      id="getJokeBtn"
+    >
+      Click Me!
+    </button>
+
+    <!-- Joke Display Container -->
+    <div
+      class="jokeContainer animate__animated animate__fadeInDown animate__delay-4s"
+    >
+      <p id="jokeText">Click the button to get jokes.</p>
+    </div>
+
+    <!-- Joke List Container -->
+    <div id="jokeListContainer">
+      <ul id="jokeList"></ul>
+    </div>
+
+    <!-- GitHub Link -->
+    <a
+      id="github-link"
+      class="github-link"
+      href="https://github.com/dipankarpaul2k"
+      target="_blank"
+    >
+      <span>GitHub Link</span>
+    </a>
+
+    <!-- Link to External JS file -->
+    <script src="chuckNorrisJokes.js"></script>
+  </body>
+</html>

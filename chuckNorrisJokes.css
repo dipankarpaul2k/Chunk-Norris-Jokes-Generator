@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding-top: 1rem;
+  background-color: #ff9786;
+  background: linear-gradient(
+    150deg,
+    rgba(255, 151, 134, 1) 25%,
+    rgba(0, 255, 217, 1) 75%
+  );
+  background-size: cover;
+}
+
+/* Style to hide the body scrollbar */
+/* body::-webkit-scrollbar {
+  display: none;
+} */
+
+/* Heading styling */
+h1 {
+  font-size: 3rem;
+  font-family: "Sora", sans-serif;
+  margin: 9rem 0 1rem;
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 3rem;
+    font-family: "Sora", sans-serif;
+    margin: 13rem 0 1rem;
+  }
+}
+
+.categoryContainer {
+  margin-bottom: 10px;
+  margin: 1rem 0;
+}
+
+.categoryContainer label {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.categoryContainer select {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  border: 2px solid #000;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+  padding: 0.7rem 2rem;
+  border-radius: 50px;
+  border: 2px solid #000;
+  outline: none;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 1rem 0 2rem;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #000;
+    color: #fff;
+  }
+}
+
+.jokeContainer {
+  border: 2px solid #000;
+  border-radius: 10px;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  padding: 0 1rem;
+}
+
+.listedJokes {
+  list-style: none;
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+/* Shaking the select styling */
+.error {
+  animation: shake 0.1s linear 10;
+}
+
+@keyframes shake {
+  0% {
+    transform: translatex(0);
+  }
+  25% {
+    transform: translatex(-2px);
+  }
+  50% {
+    transform: translatex(0);
+  }
+  75% {
+    transform: translatex(2px);
+  }
+  100% {
+    transform: translatex(0);
+  }
+}
+
+/* GitHub link styling */
+.github-link {
+  align-items: center;
+  border-radius: 6px;
+  backdrop-filter: blur(3px);
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);
+  cursor: pointer;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color 400ms, border-color 400ms;
+  z-index: 10;
+}
+
+.github-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.github-link > span {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+/* Animate.css delay */
+:root {
+  --animate-delay: 0.5s;
+}
