@@ -18,11 +18,15 @@ Chuck Norris Jokes Web App is a fun project that demonstrates how to interact wi
 
 ## Screenshots
 
-
+![Screenshot 2023-08-24 205141](https://github.com/dipankarpaul2k/Chunk-Norris-Jokes-Generator/assets/136841290/c0904608-b82d-4352-a72f-cb17e46397aa)
 
 Screenshot showing the dropdown menu.
 
+![Screenshot 2023-08-24 205200](https://github.com/dipankarpaul2k/Chunk-Norris-Jokes-Generator/assets/136841290/aa0f652b-f0b4-46d9-add5-d01012316dbb)
 
+Screenshot showing the Alert if category is not properly selected.
+
+![Screenshot 2023-08-24 205317](https://github.com/dipankarpaul2k/Chunk-Norris-Jokes-Generator/assets/136841290/6bb2309a-8bfb-4ccb-bdba-217ef3b8f4e7)
 
 Screenshot displaying "Click Me!" button and a Chuck Norris joke retrieved from the API.
 
@@ -32,6 +36,7 @@ Screenshot displaying "Click Me!" button and a Chuck Norris joke retrieved from 
 - Display the fetched joke on the webpage.
 - Maintain a list of previously fetched jokes.
 - Responsive design for a seamless user experience on different devices.
+- Smooth Onload animation using Animate.css library.
 
 ## Technologies Used
 
@@ -46,9 +51,9 @@ Screenshot displaying "Click Me!" button and a Chuck Norris joke retrieved from 
 
 To run this project locally, follow these steps:
 
-1. Clone the repository: `git clone <repository_url>`
-2. Navigate to the project directory: `cd chuck-norris-jokes-app`
-3. Open the `index.html` file in your preferred web browser.
+1. Clone the repository: `git clone https://github.com/dipankarpaul2k/Chunk-Norris-Jokes-Generator.git`
+2. Navigate to the project directory: `cd Chunk-Norris-Jokes-Generator`
+3. Open the `chunkNorrisJokes.html` file in your preferred web browser.
 
 ## Usage
 
