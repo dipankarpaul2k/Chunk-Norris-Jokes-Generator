@@ -19,21 +19,22 @@ body {
   background-size: cover;
 }
 
-/* Style to hide the body scrollbar */
-/* body::-webkit-scrollbar {
-  display: none;
-} */
+:root {
+  --font-size-base: 1rem;
+  --font-size-md: clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem);
+  --font-size-lg: clamp(1.56rem, 1vw + 1.31rem, 2.11rem);
+  --font-size-xl: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
+}
 
 /* Heading styling */
 h1 {
-  font-size: 3rem;
+  font-size: var(--font-size-xl);
   font-family: "Sora", sans-serif;
   margin: 9rem 0 1rem;
 }
 
 @media screen and (max-width: 480px) {
   h1 {
-    font-size: 3rem;
     font-family: "Sora", sans-serif;
     margin: 8rem 0 1rem;
   }
