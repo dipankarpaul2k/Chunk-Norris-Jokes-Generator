@@ -87,7 +87,7 @@ button {
   padding: 1rem;
 }
 
-p {
+.jokeContainer p {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   padding: 0 1rem;
@@ -122,33 +122,34 @@ p {
   }
 }
 
-/* GitHub link styling */
-.github-link {
+/* LikedIn & GitHub links styling */
+.footer {
+  margin: 2rem auto;
+  width: 75%;
+}
+
+.footer .links {
+  display: flex;
   align-items: center;
-  border-radius: 6px;
-  backdrop-filter: blur(3px);
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);
-  cursor: pointer;
-  position: fixed;
-  bottom: 10px;
-  left: 10px;
-  padding: 10px 20px;
-  text-decoration: none;
-  transition: background-color 400ms, border-color 400ms;
-  z-index: 10;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
 }
 
-.github-link:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-.github-link > span {
+.footer .links a i {
   color: #000;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.footer hr {
+  height: 1px;
+  background-color: #000;
+  border: none;
+  outline: none;
+}
+
+.footer p {
+  margin: 1rem 0;
 }
 
 /* Animate.css delay */

@@ -116,4 +116,8 @@ async function displayJoke(jokeData) {
 getJokeBtn.addEventListener("click", getJokes);
 window.addEventListener("load", fetchJokeCategories);
 
+// Footer body
+const footer_body = document.getElementById('footer_body');
+footer_body.innerHTML = `&COPY; ${new Date().getFullYear()} | Dipankar Paul<br/>Made with pure HTML, CSS, JavaScript`;
+
 console.log("End");
