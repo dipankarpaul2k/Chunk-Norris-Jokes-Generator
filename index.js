@@ -118,6 +118,6 @@ window.addEventListener("load", fetchJokeCategories);
 
 // Footer body
 const footer_body = document.getElementById('footer_body');
-footer_body.innerHTML = `&COPY; ${new Date().getFullYear()} | Dipankar Paul<br/>Made with pure HTML, CSS, JavaScript`;
+footer_body.innerHTML = `&COPY; ${new Date().getFullYear()} | Dipankar Paul<br/>Made with pure HTML, CSS, JavaScript and Chuck Norris Jokes Api`;
 
 console.log("End");
